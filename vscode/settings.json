@@ -1,0 +1,36 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.activeIconPack": "",
+  "material-icon-theme.folders.theme": "classic",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.cursorBlinking": "phase",
+  "workbench.colorTheme": "Monokai Night",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.idea": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": false
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "explorer.autoReveal": false,
+  "workbench.statusBar.feedback.visible": false,
+  "diffEditor.ignoreTrimWhitespace": false
+}

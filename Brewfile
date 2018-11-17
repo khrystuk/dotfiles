@@ -1,0 +1,11 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "git"
+brew "go"
+brew "mongodb"
+brew "python"
+brew "tree"
+brew "watchman"
+brew "yarn", args: ["without-node"]
