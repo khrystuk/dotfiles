@@ -373,7 +373,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/projects/dotfiles/iTerm</string>
+	<string>~/Documents/projects/dotfiles/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -415,13 +415,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>718 110 656 301 0 0 1440 878 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>520 572 400 129 0 0 1440 877 </string>
+	<string>506 1866 400 129 -574 900 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 375 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>327 352 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>192 82 1060 727 0 0 1440 877 </string>
+	<string>175 91 1060 727 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1216,7 +1216,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/yurakhr/Documents/projects/dotfiles/iTerm</string>
+	<string>/Users/yurakhr/Documents/projects/dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUAutomaticallyUpdate</key>
@@ -1230,7 +1230,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-11-16T17:40:54Z</date>
+	<date>2018-11-20T19:28:01Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>StretchTabsToFillBar</key>
