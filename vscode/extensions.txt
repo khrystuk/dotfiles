@@ -2,6 +2,5 @@ msjsdiag.debugger-for-chrome
 editorconfig.editorconfig
 dbaeumer.vscode-eslint
 ms-vscode.go
-pkief.material-icon-theme
-fabiospampinato.vscode-monokai-night
+teabyii.ayu
 esbenp.prettier-vscode
