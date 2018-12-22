@@ -1,3 +1,6 @@
+[user]
+	# email = <INSERT EMAIL HERE>
+	# name =  <INSERT NAME HERE>
 [core]
 	excludesfile = ~/.gitignore_global
 [color]

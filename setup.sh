@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
-echo "Setting up..."
-
+# Xcode command line tools
 xcode-select --install
 
-if test ! $(which brew); then
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+# VS Code extensions
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension editorconfig.editorconfig
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension ms-vscode.go
+code --install-extension teabyii.ayu
+code --install-extension esbenp.prettier-vscode
 
-brew update && brew upgrade
-brew tap homebrew/bundle
-brew bundle
+# NPM global modules
+npm i -g eslint nodemon prettier pure-prompt trash-cli typescript
 
-chsh -s $(which zsh)
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+# macOS settings
+defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock mru-spaces -bool false

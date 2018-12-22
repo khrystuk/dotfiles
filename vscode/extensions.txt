@@ -1,6 +1,0 @@
-msjsdiag.debugger-for-chrome
-editorconfig.editorconfig
-dbaeumer.vscode-eslint
-ms-vscode.go
-teabyii.ayu
-esbenp.prettier-vscode
