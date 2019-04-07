@@ -13,6 +13,8 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ms-python.python
 code --install-extension mikestead.dotenv
 code --install-extension aaron-bond.better-comments
+code --install-extension unity.unity-debug
+code --install-extension ms-vscode.csharp
 
 # NPM global modules
 npm i -g eslint nodemon prettier pure-prompt trash-cli typescript
