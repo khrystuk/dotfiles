@@ -29,6 +29,7 @@
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.statusBar.feedback.visible": false,
   "diffEditor.ignoreTrimWhitespace": false,
+  "csharp.referencesCodeLens.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
