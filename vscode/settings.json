@@ -6,27 +6,36 @@
   "telemetry.enableCrashReporter": false,
   "editor.cursorBlinking": "phase",
   "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/.idea": true
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.idea": true
   },
   "workbench.iconTheme": "ayu",
   "emmet.includeLanguages": {
-      "vue-html": "html",
-      "javascript": "javascriptreact"
+    "vue-html": "html",
+    "javascript": "javascriptreact"
   },
   "emmet.syntaxProfiles": {
-      "javascript": "jsx"
+    "javascript": "jsx"
   },
   "[go]": {
-      "editor.insertSpaces": false,
-      "editor.formatOnSave": false
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": false
   },
   "explorer.autoReveal": false,
-  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.statusBar.feedback.visible": false,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
