@@ -8,4 +8,4 @@ brew "mongodb"
 brew "python"
 brew "tree"
 brew "watchman"
-brew "yarn", args: ["without-node"]
+brew "yarn"
