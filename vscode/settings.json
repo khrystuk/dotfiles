@@ -27,7 +27,6 @@
   },
   "explorer.autoReveal": false,
   "workbench.colorTheme": "Ayu Mirage Bordered",
-  "workbench.statusBar.feedback.visible": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "csharp.referencesCodeLens.enabled": false,
   "[javascript]": {
@@ -38,5 +37,7 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.tree.renderIndentGuides": "none"
 }
