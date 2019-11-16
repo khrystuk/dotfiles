@@ -1,5 +1,5 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": false,
   "telemetry.enableTelemetry": false,
@@ -29,15 +29,12 @@
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "diffEditor.ignoreTrimWhitespace": false,
   "csharp.referencesCodeLens.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "breadcrumbs.enabled": false,
-  "workbench.tree.renderIndentGuides": "none"
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.cursorSmoothCaretAnimation": true,
+  "files.eol": "\n",
+  "omnisharp.enableEditorConfigSupport": true
 }
