@@ -36,5 +36,6 @@
   "editor.tabSize": 2,
   "editor.cursorSmoothCaretAnimation": true,
   "files.eol": "\n",
-  "omnisharp.enableEditorConfigSupport": true
+  "omnisharp.enableEditorConfigSupport": true,
+  "explorer.compactFolders": false
 }
