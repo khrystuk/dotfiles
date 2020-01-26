@@ -37,5 +37,6 @@
   "editor.cursorSmoothCaretAnimation": true,
   "files.eol": "\n",
   "omnisharp.enableEditorConfigSupport": true,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace"
 }
