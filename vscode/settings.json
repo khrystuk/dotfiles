@@ -28,15 +28,12 @@
   "explorer.autoReveal": false,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "diffEditor.ignoreTrimWhitespace": false,
-  "csharp.referencesCodeLens.enabled": false,
   "breadcrumbs.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
-  "editor.cursorSmoothCaretAnimation": true,
   "files.eol": "\n",
-  "omnisharp.enableEditorConfigSupport": true,
   "explorer.compactFolders": false,
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace"
 }

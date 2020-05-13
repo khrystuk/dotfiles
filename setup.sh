@@ -11,7 +11,6 @@ code --install-extension teabyii.ayu
 code --install-extension esbenp.prettier-vscode
 code --install-extension ms-python.python
 code --install-extension mikestead.dotenv
-code --install-extension aaron-bond.better-comments
 
 # NPM global modules
 npm i -g eslint nodemon prettier pure-prompt trash-cli typescript
@@ -19,6 +18,16 @@ npm i -g eslint nodemon prettier pure-prompt trash-cli typescript
 # PIP
 pip3 install pipenv
 
-# macOS settings
+# MACOS SETTINGS
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
+# Set a blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# Set the icon size of Dock items to 36 pixels
 defaults write com.apple.dock tilesize -int 36
+
+# Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
