@@ -7,3 +7,5 @@
 	editor = nano
 [color]
 	ui = auto
+[commit]
+	gpgsign = true
