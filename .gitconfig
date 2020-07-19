@@ -1,11 +1,8 @@
 [user]
 	# email = "<INSERT EMAIL HERE>"
 	# name = "<INSERT NAME HERE>"
-	# signingkey = <INSERT KEY HERE>
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = nano
 [color]
 	ui = auto
-[commit]
-	gpgsign = true
