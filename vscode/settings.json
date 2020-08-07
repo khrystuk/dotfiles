@@ -22,6 +22,7 @@
     "javascript": "jsx"
   },
   "[go]": {
+    "editor.defaultFormatter": "golang.go",
     "editor.insertSpaces": false,
     "editor.formatOnSave": false
   },
@@ -36,5 +37,6 @@
   "files.eol": "\n",
   "explorer.compactFolders": false,
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.renderWhitespace": "none"
+  "editor.renderWhitespace": "none",
+  "go.buildOnSave": "off"
 }
