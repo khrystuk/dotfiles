@@ -13,7 +13,7 @@ code --install-extension ms-python.python
 code --install-extension mikestead.dotenv
 
 # NPM global modules
-npm i -g eslint nodemon prettier pure-prompt trash-cli typescript
+npm i -g eslint nodemon prettier trash-cli typescript
 
 # PIP
 pip3 install pipenv
