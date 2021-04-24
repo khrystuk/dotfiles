@@ -6,7 +6,7 @@ xcode-select --install
 # VS Code extensions
 code --install-extension editorconfig.editorconfig
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension ms-vscode.go
+code --install-extension golang.go
 code --install-extension teabyii.ayu
 code --install-extension esbenp.prettier-vscode
 code --install-extension ms-python.python
