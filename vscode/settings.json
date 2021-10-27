@@ -2,8 +2,6 @@
   "workbench.startupEditor": "welcomePageInEmptyWorkbench",
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": false,
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
   "editor.cursorBlinking": "phase",
   "files.exclude": {
     "**/.git": true,
@@ -27,7 +25,6 @@
     "editor.formatOnSave": false
   },
   "explorer.autoReveal": false,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "diffEditor.ignoreTrimWhitespace": false,
   "breadcrumbs.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
@@ -38,5 +35,7 @@
   "explorer.compactFolders": false,
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.renderWhitespace": "none",
-  "go.buildOnSave": "off"
+  "go.buildOnSave": "off",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "telemetry.telemetryLevel": "off"
 }
