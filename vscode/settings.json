@@ -37,5 +37,6 @@
   "editor.renderWhitespace": "none",
   "go.buildOnSave": "off",
   "workbench.colorTheme": "Ayu Mirage Bordered",
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.enablePersistentSessions": false
 }
