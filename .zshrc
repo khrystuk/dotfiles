@@ -1,5 +1,5 @@
 # Path to oh-my-zsh installation.
-export ZSH=/Users/yurakhr/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="refined"
 
