@@ -11,7 +11,6 @@
     "**/.DS_Store": true,
     "**/.idea": true
   },
-  "workbench.iconTheme": "ayu",
   "emmet.includeLanguages": {
     "vue-html": "html",
     "javascript": "javascriptreact"
@@ -36,7 +35,9 @@
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.renderWhitespace": "none",
   "go.buildOnSave": "off",
-  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.colorTheme": "GitHub Dark Default",
   "telemetry.telemetryLevel": "off",
-  "terminal.integrated.enablePersistentSessions": false
+  "terminal.integrated.enablePersistentSessions": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.tree.indent": 16
 }
