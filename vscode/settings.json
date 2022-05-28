@@ -39,5 +39,6 @@
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.enablePersistentSessions": false,
   "extensions.ignoreRecommendations": true,
-  "workbench.tree.indent": 16
+  "workbench.tree.indent": 16,
+  "editor.bracketPairColorization.enabled": false
 }
