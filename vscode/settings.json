@@ -32,7 +32,7 @@
   "editor.tabSize": 2,
   "files.eol": "\n",
   "explorer.compactFolders": false,
-  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.renderWhitespace": "none",
   "go.buildOnSave": "off",
   "workbench.colorTheme": "GitHub Dark Default",
