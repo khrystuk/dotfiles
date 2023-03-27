@@ -7,9 +7,8 @@ xcode-select --install
 code --install-extension editorconfig.editorconfig
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension golang.go
-code --install-extension teabyii.ayu
+code --install-extension github.github-vscode-theme
 code --install-extension esbenp.prettier-vscode
-code --install-extension ms-python.python
 code --install-extension mikestead.dotenv
 
 # NPM global modules
