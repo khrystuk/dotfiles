@@ -25,7 +25,6 @@
   },
   "explorer.autoReveal": false,
   "diffEditor.ignoreTrimWhitespace": false,
-  "breadcrumbs.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.smoothScrolling": true,
