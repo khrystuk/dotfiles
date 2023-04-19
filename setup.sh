@@ -3,14 +3,6 @@
 # Xcode command line tools
 xcode-select --install
 
-# VS Code extensions
-code --install-extension editorconfig.editorconfig
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension golang.go
-code --install-extension github.github-vscode-theme
-code --install-extension esbenp.prettier-vscode
-code --install-extension mikestead.dotenv
-
 # NPM global modules
 npm i -g eslint nodemon prettier trash-cli typescript
 
