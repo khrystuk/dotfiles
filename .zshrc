@@ -5,6 +5,8 @@ ZSH_THEME="refined"
 
 plugins=(zsh-syntax-highlighting zsh-autosuggestions)
 
+bindkey '^y' autosuggest-accept
+
 source $ZSH/oh-my-zsh.sh
 
 # nvm config
