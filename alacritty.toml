@@ -5,6 +5,9 @@ live_config_reload = true
 [env]
 TERM = "xterm-256color"
 
+[window]
+startup_mode = "Maximized"
+
 [font]
 size = 12
 
