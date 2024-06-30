@@ -7,7 +7,7 @@ startup_mode = "Maximized"
 option_as_alt = "OnlyLeft"
 
 [font]
-size = 12
+size = 13
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"

@@ -1,8 +1,0 @@
-[user]
-	# email = "<INSERT EMAIL HERE>"
-	# name = "<INSERT NAME HERE>"
-[core]
-	excludesfile = ~/.gitignore_global
-	editor = nano
-[color]
-	ui = auto
