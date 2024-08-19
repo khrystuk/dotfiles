@@ -4,6 +4,7 @@ local config = wezterm.config_builder()
 
 config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 13
+config.harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
 config.window_padding = {
 	left = 0,
 	right = 0,
@@ -11,11 +12,11 @@ config.window_padding = {
 	bottom = 0,
 }
 config.use_fancy_tab_bar = false
-config.tab_bar_at_bottom = true
 config.colors = {
 	tab_bar = {
 		background = "#000000",
 	},
 }
+config.native_macos_fullscreen_mode = true
 
 return config
