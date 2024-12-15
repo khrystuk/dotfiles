@@ -89,4 +89,12 @@ return {
       },
     },
   },
+  {
+    "folke/snacks.nvim",
+    opts = {
+      win = {
+        border = "single",
+      },
+    },
+  },
 }

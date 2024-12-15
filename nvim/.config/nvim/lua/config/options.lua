@@ -4,3 +4,4 @@
 vim.diagnostic.config({
   float = { border = "rounded" },
 })
+vim.g.snacks_animate = false
