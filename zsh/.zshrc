@@ -1,3 +1,5 @@
+export XDG_CONFIG_HOME="$HOME/.config"
+
 # Path to oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -21,3 +23,6 @@ eval "$(zoxide init zsh)"
 
 # fzf
 eval "$(fzf --zsh)"
+
+# bat
+export BAT_THEME=tokyonight_night

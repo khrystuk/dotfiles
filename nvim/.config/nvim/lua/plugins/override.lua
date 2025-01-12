@@ -59,21 +59,24 @@ return {
     end,
   },
   {
-    "hrsh7th/nvim-cmp",
-    opts = function(_, opts)
-      local cmp = require("cmp")
-
-      opts.mapping["<CR>"] = nil
-
-      table.insert(opts.sources, { name = "vim-dadbod-completion" })
-
-      cmp.setup({
-        window = {
-          completion = cmp.config.window.bordered(),
-          documentation = cmp.config.window.bordered(),
+    "saghen/blink.cmp",
+    opts = {
+      completion = {
+        menu = {
+          border = "rounded",
         },
-      })
-    end,
+        documentation = {
+          window = {
+            border = "rounded",
+          },
+        },
+        ghost_text = { enabled = false },
+      },
+      signature = { window = { border = "rounded" } },
+      keymap = {
+        ["<CR>"] = {},
+      },
+    },
   },
   {
     "folke/noice.nvim",
@@ -85,7 +88,7 @@ return {
     "folke/which-key.nvim",
     opts = {
       win = {
-        border = "single",
+        border = "rounded",
       },
     },
   },
@@ -93,7 +96,7 @@ return {
     "folke/snacks.nvim",
     opts = {
       win = {
-        border = "single",
+        border = "rounded",
       },
     },
   },
