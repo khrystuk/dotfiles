@@ -6,3 +6,4 @@ font-feature = -liga
 font-feature = -dlig
 macos-option-as-alt = true
 theme = tokyonight_night
+background = "#000000"

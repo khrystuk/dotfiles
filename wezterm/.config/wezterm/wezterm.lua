@@ -17,6 +17,7 @@ config.colors = {
 	tab_bar = {
 		background = "#000000",
 	},
+	background = "#000000",
 }
 config.native_macos_fullscreen_mode = true
 

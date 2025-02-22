@@ -19,7 +19,9 @@ return {
     opts = {
       style = "night",
       on_colors = function(colors)
-        colors.border = colors.border_highlight
+        colors.bg = "#000000"
+        colors.bg_float = "#000000"
+        colors.bg_sidebar = "#000000"
       end,
     },
   },
@@ -41,6 +43,9 @@ return {
     opts = {
       options = {
         show_buffer_close_icons = false,
+        indicator = {
+          style = "underline",
+        },
       },
     },
   },
@@ -97,6 +102,15 @@ return {
     opts = {
       win = {
         border = "rounded",
+      },
+      dashboard = {
+        sections = {
+          { section = "header" },
+          { icon = " ", title = "Keymaps", section = "keys", indent = 2, padding = 1 },
+          { icon = " ", title = "Recent Files", section = "recent_files", indent = 2, padding = 1 },
+          { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
+          { section = "startup" },
+        },
       },
     },
   },
