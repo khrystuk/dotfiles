@@ -13,6 +13,9 @@ bindkey '^y' autosuggest-accept
 
 source $ZSH/oh-my-zsh.sh
 
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # nvm config
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -33,7 +36,7 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --layout=reverse \
   --border=none \
   --color=bg+:#283457 \
-  --color=bg:#000000 \
+  --color=bg:#16161e \
   --color=border:#27a1b9 \
   --color=fg:#c0caf5 \
   --color=gutter:#16161e \
