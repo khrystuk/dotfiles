@@ -14,5 +14,8 @@ config.window_padding = {
 }
 config.use_fancy_tab_bar = false
 config.native_macos_fullscreen_mode = true
+config.colors = {
+	background = "#000000",
+}
 
 return config

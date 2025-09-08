@@ -19,7 +19,10 @@ return {
     opts = {
       style = "night",
       on_colors = function(colors)
-        colors.border = colors.highlight
+        colors.border = colors.border_highlight
+        colors.bg = "#000000"
+        colors.bg_float = "#000000"
+        colors.bg_sidebar = "#000000"
       end,
     },
   },
@@ -41,8 +44,19 @@ return {
     opts = {
       options = {
         show_buffer_close_icons = false,
+        always_show_bufferline = true,
         indicator = {
           style = "underline",
+        },
+        separator_style = "slant",
+        offsets = {
+          {
+            filetype = "neo-tree",
+            text = "Neo-tree",
+            highlight = "Normal",
+            text_align = "center",
+            separator = true,
+          },
         },
       },
     },

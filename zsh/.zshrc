@@ -1,4 +1,5 @@
 export XDG_CONFIG_HOME="$HOME/.config"
+export EDITOR=nvim 
 
 # Path to oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -9,9 +10,9 @@ plugins=(zsh-syntax-highlighting zsh-autosuggestions)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
-bindkey '^y' autosuggest-accept
-
 source $ZSH/oh-my-zsh.sh
+
+bindkey '^y' autosuggest-accept
 
 # Homebrew
 eval $(/opt/homebrew/bin/brew shellenv)
@@ -36,7 +37,7 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --layout=reverse \
   --border=none \
   --color=bg+:#283457 \
-  --color=bg:#16161e \
+  --color=bg:#000000 \
   --color=border:#27a1b9 \
   --color=fg:#c0caf5 \
   --color=gutter:#16161e \
