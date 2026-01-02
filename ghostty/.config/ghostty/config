@@ -5,5 +5,5 @@ font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
 macos-option-as-alt = true
-theme = tokyonight_night
+theme = TokyoNight
 background = "#000000"
