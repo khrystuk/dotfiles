@@ -17,6 +17,9 @@ bindkey '^y' autosuggest-accept
 # Homebrew
 eval $(/opt/homebrew/bin/brew shellenv)
 
+# Rust
+. "$HOME/.cargo/env"
+
 # nvm config
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

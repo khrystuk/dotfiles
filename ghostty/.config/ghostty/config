@@ -1,9 +1,11 @@
 window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = true
+maximize = true
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
 macos-option-as-alt = true
 theme = TokyoNight
 background = "#000000"
+split-divider-color = "#27a1b9"
