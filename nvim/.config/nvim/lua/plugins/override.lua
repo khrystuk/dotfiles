@@ -19,10 +19,8 @@ return {
     opts = {
       style = "night",
       on_colors = function(colors)
-        colors.border = colors.border_highlight
         colors.bg = "#000000"
         colors.bg_float = "#000000"
-        colors.bg_sidebar = "#000000"
       end,
     },
   },
@@ -53,7 +51,6 @@ return {
           {
             filetype = "neo-tree",
             text = "Neo-tree",
-            highlight = "Normal",
             text_align = "center",
             separator = true,
           },
@@ -122,6 +119,13 @@ return {
           { icon = " ", title = "Recent Files", section = "recent_files", indent = 2, padding = 1 },
           { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
           { section = "startup" },
+        },
+      },
+      terminal = {
+        win = {
+          wo = {
+            winbar = "",
+          },
         },
       },
     },

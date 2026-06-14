@@ -8,4 +8,5 @@ font-feature = -dlig
 macos-option-as-alt = true
 theme = TokyoNight
 background = "#000000"
-split-divider-color = "#27a1b9"
+split-divider-color = "#15161e"
+unfocused-split-opacity = 1
