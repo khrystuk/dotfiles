@@ -1,3 +1,5 @@
+local border = { underline = true, sp = { attribute = "fg", highlight = "WinSeparator" } }
+
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -21,6 +23,7 @@ return {
       on_colors = function(colors)
         colors.bg = "#000000"
         colors.bg_float = "#000000"
+        colors.bg_sidebar = "#000000"
       end,
     },
   },
@@ -55,6 +58,46 @@ return {
             separator = true,
           },
         },
+      },
+      highlights = {
+        fill = border,
+        background = border,
+        tab = border,
+        tab_separator = border,
+        tab_close = border,
+        close_button = border,
+        close_button_visible = border,
+        buffer_visible = border,
+        numbers = border,
+        numbers_visible = border,
+        diagnostic = border,
+        diagnostic_visible = border,
+        hint = border,
+        hint_visible = border,
+        hint_diagnostic = border,
+        hint_diagnostic_visible = border,
+        info = border,
+        info_visible = border,
+        info_diagnostic = border,
+        info_diagnostic_visible = border,
+        warning = border,
+        warning_visible = border,
+        warning_diagnostic = border,
+        warning_diagnostic_visible = border,
+        error = border,
+        error_visible = border,
+        error_diagnostic = border,
+        error_diagnostic_visible = border,
+        modified = border,
+        modified_visible = border,
+        duplicate = border,
+        duplicate_visible = border,
+        separator = border,
+        separator_visible = border,
+        indicator_visible = border,
+        pick = border,
+        pick_visible = border,
+        trunc_marker = border,
       },
     },
   },
@@ -128,6 +171,24 @@ return {
           },
         },
       },
+    },
+  },
+  {
+    "christoomey/vim-tmux-navigator",
+    cmd = {
+      "TmuxNavigateLeft",
+      "TmuxNavigateDown",
+      "TmuxNavigateUp",
+      "TmuxNavigateRight",
+      "TmuxNavigatePrevious",
+      "TmuxNavigatorProcessList",
+    },
+    keys = {
+      { "<c-h>", "<cmd>TmuxNavigateLeft<cr>" },
+      { "<c-j>", "<cmd>TmuxNavigateDown<cr>" },
+      { "<c-k>", "<cmd>TmuxNavigateUp<cr>" },
+      { "<c-l>", "<cmd>TmuxNavigateRight<cr>" },
+      { "<c-\\>", "<cmd>TmuxNavigatePrevious<cr>" },
     },
   },
 }
