@@ -1,5 +1,8 @@
+# Homebrew — first, so the rest of the file finds brew-installed tools on PATH
+[ -x /opt/homebrew/bin/brew ] && eval "$(/opt/homebrew/bin/brew shellenv)"
+
 export XDG_CONFIG_HOME="$HOME/.config"
-export EDITOR=nvim 
+export EDITOR=nvim
 
 # Path to oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -14,11 +17,8 @@ source $ZSH/oh-my-zsh.sh
 
 bindkey '^y' autosuggest-accept
 
-# Homebrew
-eval $(/opt/homebrew/bin/brew shellenv)
-
 # Rust
-. "$HOME/.cargo/env"
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
 # nvm config
 export NVM_DIR="$HOME/.nvm"
@@ -26,10 +26,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # zoxide
-eval "$(zoxide init zsh)"
+command -v zoxide >/dev/null && eval "$(zoxide init zsh)"
 
 # fzf
-eval "$(fzf --zsh)"
+command -v fzf >/dev/null && eval "$(fzf --zsh)"
 
 export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

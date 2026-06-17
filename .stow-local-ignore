@@ -1,1 +1,9 @@
 \.DS_Store
+
+# Repo-level files — never symlink these into $HOME if someone runs `stow .`
+^/README\.md$
+^/Brewfile$
+^/setup\.sh$
+^/\.git$
+^/\.gitignore$
+^/\.stow-local-ignore$
